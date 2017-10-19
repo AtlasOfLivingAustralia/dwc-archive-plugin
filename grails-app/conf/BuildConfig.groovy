@@ -34,7 +34,7 @@ grails.project.dependency.resolution = {
         grailsCentral()
         mavenLocal()
         mavenCentral()
-        mavenRepo ("http://nexus.ala.org.au/content/groups/public/") {
+        mavenRepo ("https://nexus.ala.org.au/content/groups/public/") {
             updatePolicy 'always'
         }
         mavenRepo ("https://maven.java.net/service/local/repositories/snapshots/content/") {
@@ -47,7 +47,7 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://repository.jboss.com/maven2/"
     }
     dependencies {
-        compile 'org.gbif:dwca-reader:1.21'
+        compile 'org.gbif:dwca-io:1.31'
         compile 'org.jscience:jscience:4.3.1'
         compile 'net.sf.opencsv:opencsv:2.3'
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
